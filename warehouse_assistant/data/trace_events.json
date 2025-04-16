@@ -1,0 +1,5296 @@
+[
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-15T18:11:40.971204",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 76.27,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK46671",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_444.pdf",
+        "url": "https://storage.example.com/inbound/4234.pdf"
+      },
+      {
+        "doc_id": "RK75719",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_659.pdf",
+        "url": "https://storage.example.com/inbound/4538.pdf"
+      },
+      {
+        "doc_id": "RK47229",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_660.pdf",
+        "url": "https://storage.example.com/inbound/2464.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A4-11",
+      "equipment_id": "EQ070",
+      "equipment_type": "行车",
+      "load_capacity": 17,
+      "operation_mode": "人工操作",
+      "stacking_height": 3,
+      "storage_condition": "常温",
+      "area_utilization": 86.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D332",
+      "key_property": "强度高",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M5061",
+      "production_process": "拉伸",
+      "surface_treatment": "酸洗钝化",
+      "specification": "2500 × 1600 × 1.7mm",
+      "weight_per_unit": 13.12,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e10"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-15T19:11:40.971204",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": 82.87,
+    "unit": "吨",
+    "notes": "这种最新用户可能这种阅读.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A6-03",
+      "equipment_id": "EQ091",
+      "equipment_type": "龙门吊",
+      "load_capacity": 19,
+      "operation_mode": "半自动",
+      "stacking_height": 5,
+      "storage_condition": "防潮",
+      "area_utilization": 76.9
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e11"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-15T21:11:40.971204",
+    "operation_type": "转运",
+    "location_name": "生产线-2号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": "社区这种市场过程.",
+    "related_docs": [
+      {
+        "doc_id": "DOC83864",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_393.pdf",
+        "url": "https://storage.example.com/docs/8512.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V050",
+      "vehicle_type": "行车",
+      "load_weight": 22.38,
+      "transport_distance": 774,
+      "transport_speed": 13.8,
+      "fuel_consumption": null,
+      "driver_id": "D003",
+      "route_code": "R06"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e12"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-16T00:11:40.971204",
+    "operation_type": "生产",
+    "location_name": "生产线-2号",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 34.72,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ003",
+      "equipment_name": "剪切机",
+      "temperature": 821.61,
+      "pressure": 134.98,
+      "rolling_speed": 19.58,
+      "power_consumption": 1671.93,
+      "duration": 58,
+      "operator_mode": "自动",
+      "maintenance_status": "正常",
+      "production_line": "A线",
+      "batch_temperature_uniformity": 93.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D332",
+      "key_property": "强度高",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M5061",
+      "production_process": "拉伸",
+      "surface_treatment": "酸洗钝化",
+      "specification": "2500 × 1600 × 1.7mm",
+      "weight_per_unit": 13.12,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e13"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-16T07:11:40.971204",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V044",
+      "vehicle_type": "平板车",
+      "load_weight": 16.62,
+      "transport_distance": 458,
+      "transport_speed": 18.1,
+      "fuel_consumption": 3.1,
+      "driver_id": "D019",
+      "route_code": "R05"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e14"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-16T10:11:40.971204",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST10",
+      "instrument_id": "INST008",
+      "instrument_type": "超声波探伤仪",
+      "calibration_date": "2025-02-17",
+      "accuracy": 98.36,
+      "ambient_temperature": 23.6,
+      "ambient_humidity": 46.3,
+      "operator_certification": "专家",
+      "sampling_method": "定点抽样"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414313",
+      "inspector_id": "QC006",
+      "inspector_name": "邓平",
+      "inspection_time": "2025-04-14 18:11:40",
+      "inspection_type": "全面检测",
+      "sampling_rate": "5%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 429.33,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 284.33,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 20.66,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 170.23,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 29.86,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "轻微",
+        "rust": "无",
+        "deformation": "明显",
+        "surface_finish": "优"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5993.9,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1503.4,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 9.89,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1676,
+        "Si": 0.2127,
+        "Mn": 1.0269,
+        "P": 0.0172,
+        "S": 0.015
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 700-2006",
+      "remarks": null
+    },
+    "defect_info": {
+      "defect_id": "DF20250414052",
+      "defect_count": 5,
+      "detection_time": "2025-04-14 18:11:40",
+      "defect_details": [
+        {
+          "defect_type": "强度不足",
+          "defect_code": "DF233",
+          "severity": "轻微",
+          "location": "全部",
+          "estimated_area": "16%",
+          "detection_method": "超声波检测",
+          "possible_cause": "生产工艺偏差",
+          "defect_images": [
+            "img_2799.jpg"
+          ]
+        },
+        {
+          "defect_type": "表面划痕",
+          "defect_code": "DF417",
+          "severity": "严重",
+          "location": "局部",
+          "estimated_area": "23%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "热处理不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "延伸率不足",
+          "defect_code": "DF368",
+          "severity": "中度",
+          "location": "全部",
+          "estimated_area": "20%",
+          "detection_method": "渗透探伤",
+          "possible_cause": "冷却速度过快",
+          "defect_images": []
+        },
+        {
+          "defect_type": "冲击韧性不足",
+          "defect_code": "DF692",
+          "severity": "轻微",
+          "location": "局部",
+          "estimated_area": "37%",
+          "detection_method": "机械性能测试",
+          "possible_cause": "操作不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "变形",
+          "defect_code": "DF296",
+          "severity": "严重",
+          "location": "全部",
+          "estimated_area": "1%",
+          "detection_method": "超声波检测",
+          "possible_cause": "热处理不当",
+          "defect_images": []
+        }
+      ],
+      "defect_recorder": "邓平",
+      "recording_time": "2025-04-14 18:11:40",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D332",
+      "key_property": "强度高",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M5061",
+      "production_process": "拉伸",
+      "surface_treatment": "酸洗钝化",
+      "specification": "2500 × 1600 × 1.7mm",
+      "weight_per_unit": 13.12,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e15"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-16T16:11:40.971204",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V046",
+      "vehicle_type": "平板车",
+      "load_weight": 13.38,
+      "transport_distance": 185,
+      "transport_speed": 19.4,
+      "fuel_consumption": null,
+      "driver_id": "D017",
+      "route_code": "R09"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e16"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-16T23:11:40.971204",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": "回复政府中文支持经营进行.",
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG06",
+      "packaging_machine": "M005",
+      "packaging_type": "简易包装",
+      "packaging_material": "塑料膜",
+      "line_speed": 6.5,
+      "packaging_tension": 37.7,
+      "bundling_method": "组合捆扎",
+      "label_type": "普通标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e17"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-17T02:11:40.971204",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 65.42,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A1-19",
+      "equipment_id": "EQ068",
+      "equipment_type": "叉车",
+      "load_capacity": 14,
+      "operation_mode": "人工操作",
+      "stacking_height": 3,
+      "storage_condition": "常温",
+      "area_utilization": 84.2
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D332",
+      "key_property": "强度高",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M5061",
+      "production_process": "拉伸",
+      "surface_treatment": "酸洗钝化",
+      "specification": "2500 × 1600 × 1.7mm",
+      "weight_per_unit": 13.12,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e18"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-17T03:11:40.971204",
+    "operation_type": "出库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 28.37,
+    "unit": "吨",
+    "notes": "还有公司当前教育.",
+    "related_docs": [
+      {
+        "doc_id": "CK52784",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_276.pdf",
+        "url": "https://storage.example.com/outbound/1066.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A1-04",
+      "equipment_id": "EQ064",
+      "equipment_type": "输送机",
+      "load_capacity": 29,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "干燥",
+      "area_utilization": 91.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e19"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-17T09:11:40.971204",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V046",
+      "vehicle_type": "平板车",
+      "load_weight": 11.3,
+      "transport_distance": 981,
+      "transport_speed": 18.5,
+      "fuel_consumption": 1.28,
+      "driver_id": "D003",
+      "route_code": "R03"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e1a"
+  },
+  {
+    "batch_id": "P20250414001",
+    "timestamp": "2025-03-17T15:11:40.971204",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 72.38,
+    "unit": "吨",
+    "notes": "信息运行业务安全然后因为汽车.",
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ038",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:40",
+      "operation_end": "19:04:40",
+      "loading_method": "顶部装载",
+      "vehicle_type": "火车车厢"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e1b"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-13T18:11:40.984205",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 32.99,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK32644",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_286.pdf",
+        "url": "https://storage.example.com/inbound/9541.pdf"
+      },
+      {
+        "doc_id": "RK17580",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_996.pdf",
+        "url": "https://storage.example.com/inbound/7571.pdf"
+      },
+      {
+        "doc_id": "RK49213",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_287.pdf",
+        "url": "https://storage.example.com/inbound/8954.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A3-09",
+      "equipment_id": "EQ068",
+      "equipment_type": "龙门吊",
+      "load_capacity": 5,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "常温",
+      "area_utilization": 90.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "T12",
+      "hardness": 62.8,
+      "wear_resistance": "极佳",
+      "application": "切削工具",
+      "steel_type": "工具钢",
+      "material_code": "M7754",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "5000 × 200 × 2.8mm",
+      "weight_per_unit": 62.39,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e1c"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T01:11:40.984205",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 79.92,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-09",
+      "equipment_id": "EQ064",
+      "equipment_type": "叉车",
+      "load_capacity": 21,
+      "operation_mode": "人工操作",
+      "stacking_height": 4,
+      "storage_condition": "干燥",
+      "area_utilization": 77.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e1d"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T05:11:40.984205",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V001",
+      "vehicle_type": "卡车",
+      "load_weight": 19.27,
+      "transport_distance": 295,
+      "transport_speed": 15.6,
+      "fuel_consumption": 1.39,
+      "driver_id": "D002",
+      "route_code": "R01"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e1e"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T07:11:40.984205",
+    "operation_type": "生产",
+    "location_name": "生产线-2号",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 67.06,
+    "unit": "吨",
+    "notes": "生产的话学习公司文章.",
+    "related_docs": [
+      {
+        "doc_id": "SC53494",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_498.xlsx",
+        "url": "https://storage.example.com/production/4100.xlsx"
+      },
+      {
+        "doc_id": "SC93772",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_690.xlsx",
+        "url": "https://storage.example.com/production/6282.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ009",
+      "equipment_name": "冷轧机",
+      "temperature": 837.62,
+      "pressure": 73.89,
+      "rolling_speed": 27.53,
+      "power_consumption": 1195.21,
+      "duration": 80,
+      "operator_mode": "手动",
+      "maintenance_status": "需要维护",
+      "production_line": "B线",
+      "batch_temperature_uniformity": 98.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "T12",
+      "hardness": 62.8,
+      "wear_resistance": "极佳",
+      "application": "切削工具",
+      "steel_type": "工具钢",
+      "material_code": "M7754",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "5000 × 200 × 2.8mm",
+      "weight_per_unit": 62.39,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e1f"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T11:11:40.984205",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V045",
+      "vehicle_type": "行车",
+      "load_weight": 22.43,
+      "transport_distance": 146,
+      "transport_speed": 7.0,
+      "fuel_consumption": null,
+      "driver_id": "D023",
+      "route_code": "R03"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e20"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T12:11:40.984205",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "影响必须不是全国.",
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST06",
+      "instrument_id": "INST016",
+      "instrument_type": "拉力试验机",
+      "calibration_date": "2025-03-05",
+      "accuracy": 99.93,
+      "ambient_temperature": 23.4,
+      "ambient_humidity": 47.2,
+      "operator_certification": "初级",
+      "sampling_method": "首尾件抽检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414882",
+      "inspector_id": "QC012",
+      "inspector_name": "商娜",
+      "inspection_time": "2025-04-14 18:11:40",
+      "inspection_type": "全面检测",
+      "sampling_rate": "10%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 446.37,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 344.52,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 27.54,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 163.33,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 45.7,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "严重",
+        "rust": "轻微",
+        "deformation": "明显",
+        "surface_finish": "良"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5988.4,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1513.0,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 10.09,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1761,
+        "Si": 0.1854,
+        "Mn": 1.1089,
+        "P": 0.0165,
+        "S": 0.0331
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 1591-2018",
+      "remarks": "使用应用状态企业以上."
+    },
+    "defect_info": {
+      "defect_id": "DF20250414897",
+      "defect_count": 4,
+      "detection_time": "2025-04-14 18:11:40",
+      "defect_details": [
+        {
+          "defect_type": "变形",
+          "defect_code": "DF452",
+          "severity": "中度",
+          "location": "端部",
+          "estimated_area": "16%",
+          "detection_method": "渗透探伤",
+          "possible_cause": "设备故障",
+          "defect_images": []
+        },
+        {
+          "defect_type": "强度不足",
+          "defect_code": "DF589",
+          "severity": "轻微",
+          "location": "边部",
+          "estimated_area": "46%",
+          "detection_method": "目视检查",
+          "possible_cause": "运输损伤",
+          "defect_images": []
+        },
+        {
+          "defect_type": "表面划痕",
+          "defect_code": "DF238",
+          "severity": "中度",
+          "location": "中部",
+          "estimated_area": "20%",
+          "detection_method": "机械性能测试",
+          "possible_cause": "设备故障",
+          "defect_images": []
+        },
+        {
+          "defect_type": "硬度不足",
+          "defect_code": "DF335",
+          "severity": "严重",
+          "location": "边部",
+          "estimated_area": "33%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "热处理不当",
+          "defect_images": []
+        }
+      ],
+      "defect_recorder": "商娜",
+      "recording_time": "2025-04-14 18:11:40",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "T12",
+      "hardness": 62.8,
+      "wear_resistance": "极佳",
+      "application": "切削工具",
+      "steel_type": "工具钢",
+      "material_code": "M7754",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "5000 × 200 × 2.8mm",
+      "weight_per_unit": 62.39,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e21"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T13:11:40.984205",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "要求欢迎电话很多.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V025",
+      "vehicle_type": "行车",
+      "load_weight": 23.12,
+      "transport_distance": 145,
+      "transport_speed": 16.3,
+      "fuel_consumption": 0.8,
+      "driver_id": "D007",
+      "route_code": "R11"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e22"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T21:11:40.984205",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC90951",
+        "doc_type": "包装记录",
+        "file_name": "包装记录_762.pdf",
+        "url": "https://storage.example.com/docs/7157.pdf"
+      }
+    ],
+    "equipment_params": {
+      "packaging_station": "PKG08",
+      "packaging_machine": "M006",
+      "packaging_type": "标准包装",
+      "packaging_material": "防锈纸",
+      "line_speed": 15.1,
+      "packaging_tension": 13.9,
+      "bundling_method": "钢带捆扎",
+      "label_type": "QR码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e23"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-14T23:11:40.984205",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 77.98,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK83022",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_197.pdf",
+        "url": "https://storage.example.com/inbound/7950.pdf"
+      },
+      {
+        "doc_id": "RK50615",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_879.pdf",
+        "url": "https://storage.example.com/inbound/3356.pdf"
+      },
+      {
+        "doc_id": "RK64229",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_858.pdf",
+        "url": "https://storage.example.com/inbound/6456.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A6-13",
+      "equipment_id": "EQ054",
+      "equipment_type": "叉车",
+      "load_capacity": 18,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "防潮",
+      "area_utilization": 71.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "T12",
+      "hardness": 62.8,
+      "wear_resistance": "极佳",
+      "application": "切削工具",
+      "steel_type": "工具钢",
+      "material_code": "M7754",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "5000 × 200 × 2.8mm",
+      "weight_per_unit": 62.39,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5c6c5702f2aec76e24"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-15T06:11:40.984205",
+    "operation_type": "出库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 82.35,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A9-12",
+      "equipment_id": "EQ082",
+      "equipment_type": "行车",
+      "load_capacity": 17,
+      "operation_mode": "半自动",
+      "stacking_height": 2,
+      "storage_condition": "常温",
+      "area_utilization": 82.7
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e25"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-15T09:11:40.984205",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": "语言当然进入法律开发.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V013",
+      "vehicle_type": "卡车",
+      "load_weight": 11.7,
+      "transport_distance": 176,
+      "transport_speed": 13.7,
+      "fuel_consumption": 2.52,
+      "driver_id": "D029",
+      "route_code": "R01"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5c6c5702f2aec76e26"
+  },
+  {
+    "batch_id": "P20250414002",
+    "timestamp": "2025-04-15T16:11:40.984205",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 62.86,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ064",
+      "equipment_type": "传送带",
+      "operation_start": "18:11:40",
+      "operation_end": "18:51:40",
+      "loading_method": "吊装",
+      "vehicle_type": "火车车厢"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e27"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-03-31T18:11:41.002812",
+    "operation_type": "入库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 10.71,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A4-17",
+      "equipment_id": "EQ053",
+      "equipment_type": "叉车",
+      "load_capacity": 8,
+      "operation_mode": "人工操作",
+      "stacking_height": 1,
+      "storage_condition": "防锈",
+      "area_utilization": 93.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A657",
+      "key_property": "韧性好",
+      "application": "日常用品",
+      "steel_type": "耐热钢",
+      "material_code": "M3692",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "9000 × 2000 × 2.9mm",
+      "weight_per_unit": 45.86,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e28"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T02:11:41.002812",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 13.4,
+    "unit": "吨",
+    "notes": "也是中国中国学生主要联系.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A1-03",
+      "equipment_id": "EQ064",
+      "equipment_type": "叉车",
+      "load_capacity": 7,
+      "operation_mode": "自动",
+      "stacking_height": 2,
+      "storage_condition": "常温",
+      "area_utilization": 91.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e29"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T03:11:41.002812",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V024",
+      "vehicle_type": "平板车",
+      "load_weight": 19.78,
+      "transport_distance": 231,
+      "transport_speed": 10.2,
+      "fuel_consumption": 4.2,
+      "driver_id": "D025",
+      "route_code": "R08"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e2a"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T08:11:41.002812",
+    "operation_type": "生产",
+    "location_name": "生产线-1号",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 29.76,
+    "unit": "吨",
+    "notes": "评论还有来自公司还是研究会员.",
+    "related_docs": [
+      {
+        "doc_id": "SC70742",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_884.xlsx",
+        "url": "https://storage.example.com/production/5268.xlsx"
+      },
+      {
+        "doc_id": "SC54380",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_225.xlsx",
+        "url": "https://storage.example.com/production/9421.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ001",
+      "equipment_name": "矫平机",
+      "temperature": 934.04,
+      "pressure": 65.03,
+      "rolling_speed": 20.65,
+      "power_consumption": 1491.74,
+      "duration": 137,
+      "operator_mode": "手动",
+      "maintenance_status": "刚维护完成",
+      "production_line": "C线",
+      "batch_temperature_uniformity": 96.8
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A657",
+      "key_property": "韧性好",
+      "application": "日常用品",
+      "steel_type": "耐热钢",
+      "material_code": "M3692",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "9000 × 2000 × 2.9mm",
+      "weight_per_unit": 45.86,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e2b"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T12:11:41.002812",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC62946",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_519.pdf",
+        "url": "https://storage.example.com/docs/9544.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V005",
+      "vehicle_type": "卡车",
+      "load_weight": 18.56,
+      "transport_distance": 347,
+      "transport_speed": 5.1,
+      "fuel_consumption": 0.99,
+      "driver_id": "D027",
+      "route_code": "R15"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e2c"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T17:11:41.002812",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "ZJ77917",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_302.pdf",
+        "url": "https://storage.example.com/qc/7183.pdf"
+      }
+    ],
+    "equipment_params": {
+      "inspection_station": "ST06",
+      "instrument_id": "INST012",
+      "instrument_type": "拉力试验机",
+      "calibration_date": "2024-12-30",
+      "accuracy": 96.85,
+      "ambient_temperature": 23.0,
+      "ambient_humidity": 57.7,
+      "operator_certification": "中级",
+      "sampling_method": "全检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414937",
+      "inspector_id": "QC006",
+      "inspector_name": "谢浩",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "首检",
+      "sampling_rate": "1%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 595.83,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 251.51,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 25.06,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 181.55,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 41.14,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "严重",
+        "rust": "轻微",
+        "deformation": "明显",
+        "surface_finish": "一般"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5990.6,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1480.8,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 9.98,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1947,
+        "Si": 0.2313,
+        "Mn": 1.3475,
+        "P": 0.006,
+        "S": 0.0162
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 4171-2008",
+      "remarks": null
+    },
+    "defect_info": {
+      "defect_id": "DF20250414019",
+      "defect_count": 4,
+      "detection_time": "2025-04-14 18:11:41",
+      "defect_details": [
+        {
+          "defect_type": "表面不平整",
+          "defect_code": "DF524",
+          "severity": "严重",
+          "location": "边部",
+          "estimated_area": "31%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "原材料问题",
+          "defect_images": [
+            "img_9483.jpg"
+          ]
+        },
+        {
+          "defect_type": "强度不足",
+          "defect_code": "DF301",
+          "severity": "中度",
+          "location": "全部",
+          "estimated_area": "15%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "操作不当",
+          "defect_images": [
+            "img_3909.jpg"
+          ]
+        },
+        {
+          "defect_type": "表面划痕",
+          "defect_code": "DF273",
+          "severity": "中度",
+          "location": "端部",
+          "estimated_area": "36%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "冷却速度过快",
+          "defect_images": [
+            "img_8426.jpg"
+          ]
+        },
+        {
+          "defect_type": "变形",
+          "defect_code": "DF779",
+          "severity": "轻微",
+          "location": "中部",
+          "estimated_area": "43%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "原材料问题",
+          "defect_images": [
+            "img_1527.jpg"
+          ]
+        }
+      ],
+      "defect_recorder": "谢浩",
+      "recording_time": "2025-04-14 18:11:41",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A657",
+      "key_property": "韧性好",
+      "application": "日常用品",
+      "steel_type": "耐热钢",
+      "material_code": "M3692",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "9000 × 2000 × 2.9mm",
+      "weight_per_unit": 45.86,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e2d"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-01T19:11:41.002812",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "更新推荐一切日期可是经济.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V033",
+      "vehicle_type": "叉车",
+      "load_weight": 13.14,
+      "transport_distance": 425,
+      "transport_speed": 12.5,
+      "fuel_consumption": 1.11,
+      "driver_id": "D029",
+      "route_code": "R02"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e2e"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-02T02:11:41.002812",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG09",
+      "packaging_machine": "M006",
+      "packaging_type": "出口包装",
+      "packaging_material": "防水布",
+      "line_speed": 7.3,
+      "packaging_tension": 30.4,
+      "bundling_method": "塑料带捆扎",
+      "label_type": "普通标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e2f"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-02T05:11:41.002812",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": 39.38,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-05",
+      "equipment_id": "EQ060",
+      "equipment_type": "输送机",
+      "load_capacity": 8,
+      "operation_mode": "半自动",
+      "stacking_height": 5,
+      "storage_condition": "防锈",
+      "area_utilization": 81.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A657",
+      "key_property": "韧性好",
+      "application": "日常用品",
+      "steel_type": "耐热钢",
+      "material_code": "M3692",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "9000 × 2000 × 2.9mm",
+      "weight_per_unit": 45.86,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 1591"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e30"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-02T09:11:41.002812",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 70.33,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "CK50375",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_436.pdf",
+        "url": "https://storage.example.com/outbound/3913.pdf"
+      },
+      {
+        "doc_id": "CK61656",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_955.pdf",
+        "url": "https://storage.example.com/outbound/8022.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A4-01",
+      "equipment_id": "EQ095",
+      "equipment_type": "叉车",
+      "load_capacity": 8,
+      "operation_mode": "半自动",
+      "stacking_height": 5,
+      "storage_condition": "常温",
+      "area_utilization": 79.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e31"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-02T13:11:41.002812",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V035",
+      "vehicle_type": "轨道车",
+      "load_weight": 23.37,
+      "transport_distance": 812,
+      "transport_speed": 19.7,
+      "fuel_consumption": 0.82,
+      "driver_id": "D019",
+      "route_code": "R06"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e32"
+  },
+  {
+    "batch_id": "P20250414003",
+    "timestamp": "2025-04-02T18:11:41.002812",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 85.33,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC55523",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_393.pdf",
+        "url": "https://storage.example.com/docs/5672.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ085",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:28:41",
+      "loading_method": "顶部装载",
+      "vehicle_type": "平板卡车"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e33"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-25T18:11:41.027314",
+    "operation_type": "入库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 23.75,
+    "unit": "吨",
+    "notes": "事情原因下载发布影响.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A4-18",
+      "equipment_id": "EQ052",
+      "equipment_type": "龙门吊",
+      "load_capacity": 8,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "干燥",
+      "area_utilization": 85.1
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "Q235",
+      "carbon_content": 0.4297,
+      "yield_strength": 334.8,
+      "tensile_strength": 584.3,
+      "application": "建筑结构",
+      "steel_type": "普通碳素钢",
+      "material_code": "M6337",
+      "production_process": "锻造",
+      "surface_treatment": "未处理",
+      "specification": "10000 × 400 × 4.1mm",
+      "weight_per_unit": 93.69,
+      "weight_unit": "kg/m",
+      "standard": "ASTM A36"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e34"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-25T19:11:41.027314",
+    "operation_type": "出库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 68.24,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A10-13",
+      "equipment_id": "EQ054",
+      "equipment_type": "龙门吊",
+      "load_capacity": 26,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "防锈",
+      "area_utilization": 83.7
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e35"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-26T03:11:41.027314",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V035",
+      "vehicle_type": "轨道车",
+      "load_weight": 23.26,
+      "transport_distance": 865,
+      "transport_speed": 5.6,
+      "fuel_consumption": 4.84,
+      "driver_id": "D019",
+      "route_code": "R02"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e36"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-26T07:11:41.027314",
+    "operation_type": "生产",
+    "location_name": "生产线-2号",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 17.38,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "SC71737",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_531.xlsx",
+        "url": "https://storage.example.com/production/1993.xlsx"
+      },
+      {
+        "doc_id": "SC69433",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_122.xlsx",
+        "url": "https://storage.example.com/production/5515.xlsx"
+      },
+      {
+        "doc_id": "SC35014",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_410.xlsx",
+        "url": "https://storage.example.com/production/7889.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ008",
+      "equipment_name": "冷轧机",
+      "temperature": 1111.04,
+      "pressure": 97.46,
+      "rolling_speed": 15.19,
+      "power_consumption": 3685.46,
+      "duration": 54,
+      "operator_mode": "半自动",
+      "maintenance_status": "正常",
+      "production_line": "B线",
+      "batch_temperature_uniformity": 97.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "Q235",
+      "carbon_content": 0.4297,
+      "yield_strength": 334.8,
+      "tensile_strength": 584.3,
+      "application": "建筑结构",
+      "steel_type": "普通碳素钢",
+      "material_code": "M6337",
+      "production_process": "锻造",
+      "surface_treatment": "未处理",
+      "specification": "10000 × 400 × 4.1mm",
+      "weight_per_unit": 93.69,
+      "weight_unit": "kg/m",
+      "standard": "ASTM A36"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e37"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-26T13:11:41.027314",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": "这是部门应该公司一起实现.",
+    "related_docs": [
+      {
+        "doc_id": "DOC69482",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_136.pdf",
+        "url": "https://storage.example.com/docs/8470.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V031",
+      "vehicle_type": "叉车",
+      "load_weight": 20.37,
+      "transport_distance": 437,
+      "transport_speed": 18.5,
+      "fuel_consumption": 3.77,
+      "driver_id": "D003",
+      "route_code": "R04"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e38"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-26T16:11:41.027314",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST04",
+      "instrument_id": "INST016",
+      "instrument_type": "硬度计",
+      "calibration_date": "2025-03-04",
+      "accuracy": 99.94,
+      "ambient_temperature": 21.6,
+      "ambient_humidity": 42.6,
+      "operator_certification": "初级",
+      "sampling_method": "随机抽样"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414643",
+      "inspector_id": "QC011",
+      "inspector_name": "张丽娟",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "抽样检测",
+      "sampling_rate": "5%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 457.24,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 281.58,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 26.63,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 186.18,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 38.77,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "轻微",
+        "rust": "严重",
+        "deformation": "明显",
+        "surface_finish": "良"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 6001.7,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1502.5,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 10.05,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.2155,
+        "Si": 0.1553,
+        "Mn": 1.2794,
+        "P": 0.012,
+        "S": 0.0325
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 700-2006",
+      "remarks": null
+    },
+    "defect_info": {
+      "defect_id": "DF20250414690",
+      "defect_count": 3,
+      "detection_time": "2025-04-14 18:11:41",
+      "defect_details": [
+        {
+          "defect_type": "表面划痕",
+          "defect_code": "DF990",
+          "severity": "严重",
+          "location": "全部",
+          "estimated_area": "42%",
+          "detection_method": "目视检查",
+          "possible_cause": "运输损伤",
+          "defect_images": [
+            "img_5986.jpg"
+          ]
+        },
+        {
+          "defect_type": "锈蚀",
+          "defect_code": "DF703",
+          "severity": "严重",
+          "location": "局部",
+          "estimated_area": "45%",
+          "detection_method": "目视检查",
+          "possible_cause": "原材料问题",
+          "defect_images": []
+        },
+        {
+          "defect_type": "变形",
+          "defect_code": "DF156",
+          "severity": "严重",
+          "location": "端部",
+          "estimated_area": "44%",
+          "detection_method": "超声波检测",
+          "possible_cause": "运输损伤",
+          "defect_images": [
+            "img_9103.jpg"
+          ]
+        }
+      ],
+      "defect_recorder": "张丽娟",
+      "recording_time": "2025-04-14 18:11:41",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "Q235",
+      "carbon_content": 0.4297,
+      "yield_strength": 334.8,
+      "tensile_strength": 584.3,
+      "application": "建筑结构",
+      "steel_type": "普通碳素钢",
+      "material_code": "M6337",
+      "production_process": "锻造",
+      "surface_treatment": "未处理",
+      "specification": "10000 × 400 × 4.1mm",
+      "weight_per_unit": 93.69,
+      "weight_unit": "kg/m",
+      "standard": "ASTM A36"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e39"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-26T18:11:41.027314",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V016",
+      "vehicle_type": "轨道车",
+      "load_weight": 9.17,
+      "transport_distance": 184,
+      "transport_speed": 7.3,
+      "fuel_consumption": null,
+      "driver_id": "D028",
+      "route_code": "R04"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e3a"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-27T01:11:41.027314",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC39500",
+        "doc_type": "包装记录",
+        "file_name": "包装记录_961.pdf",
+        "url": "https://storage.example.com/docs/6686.pdf"
+      },
+      {
+        "doc_id": "DOC93590",
+        "doc_type": "包装记录",
+        "file_name": "包装记录_336.pdf",
+        "url": "https://storage.example.com/docs/7403.pdf"
+      },
+      {
+        "doc_id": "DOC81415",
+        "doc_type": "包装记录",
+        "file_name": "包装记录_274.pdf",
+        "url": "https://storage.example.com/docs/6423.pdf"
+      }
+    ],
+    "equipment_params": {
+      "packaging_station": "PKG03",
+      "packaging_machine": "M004",
+      "packaging_type": "出口包装",
+      "packaging_material": "复合材料",
+      "line_speed": 17.9,
+      "packaging_tension": 43.5,
+      "bundling_method": "组合捆扎",
+      "label_type": "条码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e3b"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-27T06:11:41.027314",
+    "operation_type": "入库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 90.4,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A10-17",
+      "equipment_id": "EQ075",
+      "equipment_type": "龙门吊",
+      "load_capacity": 18,
+      "operation_mode": "人工操作",
+      "stacking_height": 5,
+      "storage_condition": "常温",
+      "area_utilization": 82.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "Q235",
+      "carbon_content": 0.4297,
+      "yield_strength": 334.8,
+      "tensile_strength": 584.3,
+      "application": "建筑结构",
+      "steel_type": "普通碳素钢",
+      "material_code": "M6337",
+      "production_process": "锻造",
+      "surface_treatment": "未处理",
+      "specification": "10000 × 400 × 4.1mm",
+      "weight_per_unit": 93.69,
+      "weight_unit": "kg/m",
+      "standard": "ASTM A36"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e3c"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-27T14:11:41.027314",
+    "operation_type": "出库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 54.08,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "CK73185",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_830.pdf",
+        "url": "https://storage.example.com/outbound/2259.pdf"
+      },
+      {
+        "doc_id": "CK73702",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_797.pdf",
+        "url": "https://storage.example.com/outbound/5211.pdf"
+      },
+      {
+        "doc_id": "CK32258",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_962.pdf",
+        "url": "https://storage.example.com/outbound/1323.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A6-03",
+      "equipment_id": "EQ078",
+      "equipment_type": "龙门吊",
+      "load_capacity": 25,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "常温",
+      "area_utilization": 75.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e3d"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-27T21:11:41.027314",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V032",
+      "vehicle_type": "卡车",
+      "load_weight": 3.95,
+      "transport_distance": 533,
+      "transport_speed": 15.9,
+      "fuel_consumption": null,
+      "driver_id": "D026",
+      "route_code": "R14"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e3e"
+  },
+  {
+    "batch_id": "P20250414004",
+    "timestamp": "2025-03-28T05:11:41.027314",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 79.32,
+    "unit": "吨",
+    "notes": "电话可能制作国家那么以及单位.",
+    "related_docs": [
+      {
+        "doc_id": "DOC12701",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_204.pdf",
+        "url": "https://storage.example.com/docs/5248.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ071",
+      "equipment_type": "行车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:36:41",
+      "loading_method": "顶部装载",
+      "vehicle_type": "火车车厢"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e3f"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-01T18:11:41.057324",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 18.5,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A2-12",
+      "equipment_id": "EQ097",
+      "equipment_type": "行车",
+      "load_capacity": 9,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "常温",
+      "area_utilization": 94.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B438",
+      "key_property": "耐高温",
+      "application": "特种应用",
+      "steel_type": "耐热钢",
+      "material_code": "M9945",
+      "production_process": "冷轧",
+      "surface_treatment": "未处理",
+      "specification": "3500 × 1400 × 2.7mm",
+      "weight_per_unit": 21.95,
+      "weight_unit": "kg/m",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e40"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T01:11:41.057324",
+    "operation_type": "出库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": 51.39,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A6-01",
+      "equipment_id": "EQ067",
+      "equipment_type": "龙门吊",
+      "load_capacity": 15,
+      "operation_mode": "人工操作",
+      "stacking_height": 1,
+      "storage_condition": "干燥",
+      "area_utilization": 70.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e41"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T02:11:41.057324",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V012",
+      "vehicle_type": "卡车",
+      "load_weight": 3.55,
+      "transport_distance": 885,
+      "transport_speed": 10.2,
+      "fuel_consumption": 4.65,
+      "driver_id": "D010",
+      "route_code": "R08"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e42"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T05:11:41.057324",
+    "operation_type": "生产",
+    "location_name": "生产线-1号",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 42.85,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ015",
+      "equipment_name": "热轧机",
+      "temperature": 1057.58,
+      "pressure": 144.95,
+      "rolling_speed": 16.6,
+      "power_consumption": 1826.85,
+      "duration": 94,
+      "operator_mode": "半自动",
+      "maintenance_status": "刚维护完成",
+      "production_line": "A线",
+      "batch_temperature_uniformity": 93.8
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B438",
+      "key_property": "耐高温",
+      "application": "特种应用",
+      "steel_type": "耐热钢",
+      "material_code": "M9945",
+      "production_process": "冷轧",
+      "surface_treatment": "未处理",
+      "specification": "3500 × 1400 × 2.7mm",
+      "weight_per_unit": 21.95,
+      "weight_unit": "kg/m",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e43"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T08:11:41.057324",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V037",
+      "vehicle_type": "轨道车",
+      "load_weight": 17.13,
+      "transport_distance": 507,
+      "transport_speed": 13.2,
+      "fuel_consumption": 3.58,
+      "driver_id": "D006",
+      "route_code": "R06"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e44"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T10:11:41.057324",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": "会员只是一切时间销售精华.",
+    "related_docs": [
+      {
+        "doc_id": "ZJ93426",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_050.pdf",
+        "url": "https://storage.example.com/qc/1948.pdf"
+      },
+      {
+        "doc_id": "ZJ36180",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_974.pdf",
+        "url": "https://storage.example.com/qc/1440.pdf"
+      },
+      {
+        "doc_id": "ZJ78682",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_762.pdf",
+        "url": "https://storage.example.com/qc/1286.pdf"
+      }
+    ],
+    "equipment_params": {
+      "inspection_station": "ST05",
+      "instrument_id": "INST004",
+      "instrument_type": "磁粉探伤仪",
+      "calibration_date": "2024-12-26",
+      "accuracy": 99.03,
+      "ambient_temperature": 21.2,
+      "ambient_humidity": 48.0,
+      "operator_certification": "专家",
+      "sampling_method": "定点抽样"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414175",
+      "inspector_id": "QC006",
+      "inspector_name": "韩健",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "抽样检测",
+      "sampling_rate": "50%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 572.48,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 347.04,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 21.71,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 203.65,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 39.5,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "严重",
+        "rust": "中度",
+        "deformation": "无",
+        "surface_finish": "差"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 6012.2,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1512.6,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 9.97,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1953,
+        "Si": 0.1828,
+        "Mn": 1.0386,
+        "P": 0.0111,
+        "S": 0.0222
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 1591-2018",
+      "remarks": "信息参加他的进入."
+    },
+    "defect_info": {
+      "defect_id": "DF20250414734",
+      "defect_count": 3,
+      "detection_time": "2025-04-14 18:11:41",
+      "defect_details": [
+        {
+          "defect_type": "表面不平整",
+          "defect_code": "DF761",
+          "severity": "中度",
+          "location": "端部",
+          "estimated_area": "27%",
+          "detection_method": "超声波检测",
+          "possible_cause": "冷却速度过快",
+          "defect_images": [
+            "img_1064.jpg"
+          ]
+        },
+        {
+          "defect_type": "表面划痕",
+          "defect_code": "DF670",
+          "severity": "中度",
+          "location": "中部",
+          "estimated_area": "33%",
+          "detection_method": "目视检查",
+          "possible_cause": "原材料问题",
+          "defect_images": []
+        },
+        {
+          "defect_type": "锈蚀",
+          "defect_code": "DF748",
+          "severity": "轻微",
+          "location": "全部",
+          "estimated_area": "32%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "运输损伤",
+          "defect_images": []
+        }
+      ],
+      "defect_recorder": "韩健",
+      "recording_time": "2025-04-14 18:11:41",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B438",
+      "key_property": "耐高温",
+      "application": "特种应用",
+      "steel_type": "耐热钢",
+      "material_code": "M9945",
+      "production_process": "冷轧",
+      "surface_treatment": "未处理",
+      "specification": "3500 × 1400 × 2.7mm",
+      "weight_per_unit": 21.95,
+      "weight_unit": "kg/m",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e45"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T16:11:41.057324",
+    "operation_type": "转运",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC27081",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_752.pdf",
+        "url": "https://storage.example.com/docs/7790.pdf"
+      },
+      {
+        "doc_id": "DOC36645",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_411.pdf",
+        "url": "https://storage.example.com/docs/6499.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V027",
+      "vehicle_type": "叉车",
+      "load_weight": 18.97,
+      "transport_distance": 400,
+      "transport_speed": 19.0,
+      "fuel_consumption": 4.71,
+      "driver_id": "D018",
+      "route_code": "R05"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e46"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-02T23:11:41.057324",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG04",
+      "packaging_machine": "M003",
+      "packaging_type": "标准包装",
+      "packaging_material": "塑料膜",
+      "line_speed": 14.9,
+      "packaging_tension": 43.9,
+      "bundling_method": "塑料带捆扎",
+      "label_type": "RFID标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e47"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-03T02:11:41.057324",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 98.13,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A1-05",
+      "equipment_id": "EQ092",
+      "equipment_type": "叉车",
+      "load_capacity": 14,
+      "operation_mode": "半自动",
+      "stacking_height": 5,
+      "storage_condition": "常温",
+      "area_utilization": 78.3
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B438",
+      "key_property": "耐高温",
+      "application": "特种应用",
+      "steel_type": "耐热钢",
+      "material_code": "M9945",
+      "production_process": "冷轧",
+      "surface_treatment": "未处理",
+      "specification": "3500 × 1400 × 2.7mm",
+      "weight_per_unit": 21.95,
+      "weight_unit": "kg/m",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e48"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-03T05:11:41.057324",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 92.11,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "CK67595",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_501.pdf",
+        "url": "https://storage.example.com/outbound/1816.pdf"
+      },
+      {
+        "doc_id": "CK92978",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_380.pdf",
+        "url": "https://storage.example.com/outbound/1979.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A4-19",
+      "equipment_id": "EQ055",
+      "equipment_type": "行车",
+      "load_capacity": 16,
+      "operation_mode": "半自动",
+      "stacking_height": 2,
+      "storage_condition": "常温",
+      "area_utilization": 72.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e49"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-03T06:11:41.057324",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": "客户等级一下用户公司有些自己.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V001",
+      "vehicle_type": "叉车",
+      "load_weight": 9.77,
+      "transport_distance": 906,
+      "transport_speed": 17.3,
+      "fuel_consumption": null,
+      "driver_id": "D017",
+      "route_code": "R05"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e4a"
+  },
+  {
+    "batch_id": "P20250414005",
+    "timestamp": "2025-04-03T12:11:41.057324",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 92.56,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC98820",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_163.pdf",
+        "url": "https://storage.example.com/docs/6105.pdf"
+      },
+      {
+        "doc_id": "DOC54539",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_766.pdf",
+        "url": "https://storage.example.com/docs/6116.pdf"
+      },
+      {
+        "doc_id": "DOC71437",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_717.pdf",
+        "url": "https://storage.example.com/docs/1191.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ072",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:18:41",
+      "loading_method": "吊装",
+      "vehicle_type": "船舶"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e4b"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-19T18:11:41.092577",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": 75.37,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-13",
+      "equipment_id": "EQ069",
+      "equipment_type": "行车",
+      "load_capacity": 15,
+      "operation_mode": "半自动",
+      "stacking_height": 3,
+      "storage_condition": "干燥",
+      "area_utilization": 87.7
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A108",
+      "key_property": "强度高",
+      "application": "日常用品",
+      "steel_type": "弹簧钢",
+      "material_code": "M9841",
+      "production_process": "挤压",
+      "surface_treatment": "未处理",
+      "specification": "9500 × 400 × 0.4mm",
+      "weight_per_unit": 79.61,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e4c"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-19T21:11:41.092577",
+    "operation_type": "出库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": 89.41,
+    "unit": "吨",
+    "notes": "加入搜索下载她的简介.",
+    "related_docs": [
+      {
+        "doc_id": "CK75674",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_749.pdf",
+        "url": "https://storage.example.com/outbound/9501.pdf"
+      },
+      {
+        "doc_id": "CK87018",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_975.pdf",
+        "url": "https://storage.example.com/outbound/2557.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A5-02",
+      "equipment_id": "EQ094",
+      "equipment_type": "叉车",
+      "load_capacity": 10,
+      "operation_mode": "人工操作",
+      "stacking_height": 2,
+      "storage_condition": "防锈",
+      "area_utilization": 94.1
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e4d"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-20T05:11:41.092577",
+    "operation_type": "转运",
+    "location_name": "生产线-2号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V008",
+      "vehicle_type": "轨道车",
+      "load_weight": 8.38,
+      "transport_distance": 299,
+      "transport_speed": 14.4,
+      "fuel_consumption": 3.25,
+      "driver_id": "D027",
+      "route_code": "R03"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e4e"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-20T10:11:41.092577",
+    "operation_type": "生产",
+    "location_name": "生产线-1号",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 26.86,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "SC66288",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_027.xlsx",
+        "url": "https://storage.example.com/production/8874.xlsx"
+      },
+      {
+        "doc_id": "SC49157",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_396.xlsx",
+        "url": "https://storage.example.com/production/4690.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ004",
+      "equipment_name": "热轧机",
+      "temperature": 827.52,
+      "pressure": 73.18,
+      "rolling_speed": 24.74,
+      "power_consumption": 1511.68,
+      "duration": 102,
+      "operator_mode": "手动",
+      "maintenance_status": "正常",
+      "production_line": "A线",
+      "batch_temperature_uniformity": 98.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A108",
+      "key_property": "强度高",
+      "application": "日常用品",
+      "steel_type": "弹簧钢",
+      "material_code": "M9841",
+      "production_process": "挤压",
+      "surface_treatment": "未处理",
+      "specification": "9500 × 400 × 0.4mm",
+      "weight_per_unit": 79.61,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e4f"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-20T17:11:41.092577",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V022",
+      "vehicle_type": "行车",
+      "load_weight": 23.45,
+      "transport_distance": 764,
+      "transport_speed": 12.7,
+      "fuel_consumption": 4.64,
+      "driver_id": "D008",
+      "route_code": "R03"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e50"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-20T22:11:41.092577",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST03",
+      "instrument_id": "INST013",
+      "instrument_type": "光谱仪",
+      "calibration_date": "2025-03-23",
+      "accuracy": 97.34,
+      "ambient_temperature": 20.5,
+      "ambient_humidity": 43.2,
+      "operator_certification": "初级",
+      "sampling_method": "随机抽样"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414635",
+      "inspector_id": "QC011",
+      "inspector_name": "刘宁",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "定点检测",
+      "sampling_rate": "5%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 426.34,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 262.6,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 24.18,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 150.24,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 30.36,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "无",
+        "rust": "轻微",
+        "deformation": "轻微",
+        "surface_finish": "良"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5991.2,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1517.5,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 10.16,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.2412,
+        "Si": 0.2209,
+        "Mn": 1.2457,
+        "P": 0.007,
+        "S": 0.0235
+      },
+      "overall_result": "合格",
+      "inspection_standard": "GB/T 700-2006",
+      "remarks": null
+    },
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A108",
+      "key_property": "强度高",
+      "application": "日常用品",
+      "steel_type": "弹簧钢",
+      "material_code": "M9841",
+      "production_process": "挤压",
+      "surface_treatment": "未处理",
+      "specification": "9500 × 400 × 0.4mm",
+      "weight_per_unit": 79.61,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e51"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-21T06:11:41.092577",
+    "operation_type": "转运",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V013",
+      "vehicle_type": "轨道车",
+      "load_weight": 5.36,
+      "transport_distance": 946,
+      "transport_speed": 10.7,
+      "fuel_consumption": null,
+      "driver_id": "D010",
+      "route_code": "R04"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e52"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-21T11:11:41.092577",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": "部分日本她的关系这个详细.",
+    "related_docs": [
+      {
+        "doc_id": "DOC80337",
+        "doc_type": "包装记录",
+        "file_name": "包装记录_973.pdf",
+        "url": "https://storage.example.com/docs/3280.pdf"
+      }
+    ],
+    "equipment_params": {
+      "packaging_station": "PKG03",
+      "packaging_machine": "M007",
+      "packaging_type": "标准包装",
+      "packaging_material": "塑料膜",
+      "line_speed": 9.2,
+      "packaging_tension": 19.7,
+      "bundling_method": "塑料带捆扎",
+      "label_type": "QR码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e53"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-21T15:11:41.092577",
+    "operation_type": "入库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 61.06,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK98670",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_422.pdf",
+        "url": "https://storage.example.com/inbound/2484.pdf"
+      },
+      {
+        "doc_id": "RK20912",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_269.pdf",
+        "url": "https://storage.example.com/inbound/7826.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A5-13",
+      "equipment_id": "EQ071",
+      "equipment_type": "输送机",
+      "load_capacity": 13,
+      "operation_mode": "人工操作",
+      "stacking_height": 4,
+      "storage_condition": "防潮",
+      "area_utilization": 92.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "A108",
+      "key_property": "强度高",
+      "application": "日常用品",
+      "steel_type": "弹簧钢",
+      "material_code": "M9841",
+      "production_process": "挤压",
+      "surface_treatment": "未处理",
+      "specification": "9500 × 400 × 0.4mm",
+      "weight_per_unit": 79.61,
+      "weight_unit": "kg/m²",
+      "standard": "JIS G3101"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e54"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-21T23:11:41.092577",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 31.52,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-14",
+      "equipment_id": "EQ067",
+      "equipment_type": "行车",
+      "load_capacity": 11,
+      "operation_mode": "人工操作",
+      "stacking_height": 2,
+      "storage_condition": "防锈",
+      "area_utilization": 90.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e55"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-22T00:11:41.092577",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "她的活动进行成功那些公司工具.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V013",
+      "vehicle_type": "卡车",
+      "load_weight": 14.32,
+      "transport_distance": 975,
+      "transport_speed": 16.1,
+      "fuel_consumption": 4.58,
+      "driver_id": "D005",
+      "route_code": "R11"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e56"
+  },
+  {
+    "batch_id": "P20250414006",
+    "timestamp": "2025-03-22T08:11:41.092577",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": 82.55,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC85020",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_402.pdf",
+        "url": "https://storage.example.com/docs/6534.pdf"
+      },
+      {
+        "doc_id": "DOC64961",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_307.pdf",
+        "url": "https://storage.example.com/docs/2660.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ049",
+      "equipment_type": "传送带",
+      "operation_start": "18:11:41",
+      "operation_end": "18:59:41",
+      "loading_method": "滚动装载",
+      "vehicle_type": "船舶"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e57"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-10T18:11:41.133929",
+    "operation_type": "入库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 26.15,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-19",
+      "equipment_id": "EQ060",
+      "equipment_type": "行车",
+      "load_capacity": 16,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "常温",
+      "area_utilization": 91.5
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "9SiCr",
+      "hardness": 62.6,
+      "wear_resistance": "良好",
+      "application": "量具",
+      "steel_type": "工具钢",
+      "material_code": "M6865",
+      "production_process": "锻造",
+      "surface_treatment": "油漆",
+      "specification": "3000 × 800 × 0.6mm",
+      "weight_per_unit": 68.31,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e58"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-10T21:11:41.133929",
+    "operation_type": "出库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 33.9,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-08",
+      "equipment_id": "EQ050",
+      "equipment_type": "龙门吊",
+      "load_capacity": 9,
+      "operation_mode": "自动",
+      "stacking_height": 3,
+      "storage_condition": "干燥",
+      "area_utilization": 76.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e59"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-11T01:11:41.133929",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": "认为计划不是地区详细.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V012",
+      "vehicle_type": "卡车",
+      "load_weight": 11.13,
+      "transport_distance": 953,
+      "transport_speed": 11.0,
+      "fuel_consumption": null,
+      "driver_id": "D007",
+      "route_code": "R04"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e5a"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-11T08:11:41.133929",
+    "operation_type": "生产",
+    "location_name": "生产线-1号",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 58.86,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ011",
+      "equipment_name": "剪切机",
+      "temperature": 943.06,
+      "pressure": 72.26,
+      "rolling_speed": 28.24,
+      "power_consumption": 1981.26,
+      "duration": 74,
+      "operator_mode": "自动",
+      "maintenance_status": "刚维护完成",
+      "production_line": "B线",
+      "batch_temperature_uniformity": 93.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "9SiCr",
+      "hardness": 62.6,
+      "wear_resistance": "良好",
+      "application": "量具",
+      "steel_type": "工具钢",
+      "material_code": "M6865",
+      "production_process": "锻造",
+      "surface_treatment": "油漆",
+      "specification": "3000 × 800 × 0.6mm",
+      "weight_per_unit": 68.31,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e5b"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-11T15:11:41.133929",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V031",
+      "vehicle_type": "平板车",
+      "load_weight": 6.87,
+      "transport_distance": 889,
+      "transport_speed": 10.5,
+      "fuel_consumption": 3.61,
+      "driver_id": "D021",
+      "route_code": "R06"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e5c"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-11T18:11:41.133929",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "ZJ13300",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_365.pdf",
+        "url": "https://storage.example.com/qc/1838.pdf"
+      },
+      {
+        "doc_id": "ZJ50787",
+        "doc_type": "质检报告",
+        "file_name": "质检报告_20250414_267.pdf",
+        "url": "https://storage.example.com/qc/7920.pdf"
+      }
+    ],
+    "equipment_params": {
+      "inspection_station": "ST06",
+      "instrument_id": "INST009",
+      "instrument_type": "超声波探伤仪",
+      "calibration_date": "2025-01-09",
+      "accuracy": 96.82,
+      "ambient_temperature": 21.7,
+      "ambient_humidity": 46.0,
+      "operator_certification": "专家",
+      "sampling_method": "全检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414425",
+      "inspector_id": "QC004",
+      "inspector_name": "魏丽",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "全面检测",
+      "sampling_rate": "100%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 556.53,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 269.34,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 26.8,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 189.92,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 36.84,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "轻微",
+        "rust": "无",
+        "deformation": "轻微",
+        "surface_finish": "良"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 6002.6,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1503.8,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 10.19,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1815,
+        "Si": 0.2867,
+        "Mn": 1.4707,
+        "P": 0.0104,
+        "S": 0.0241
+      },
+      "overall_result": "合格",
+      "inspection_standard": "GB/T 1591-2018",
+      "remarks": "出来地区就是有限包括为了."
+    },
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "9SiCr",
+      "hardness": 62.6,
+      "wear_resistance": "良好",
+      "application": "量具",
+      "steel_type": "工具钢",
+      "material_code": "M6865",
+      "production_process": "锻造",
+      "surface_treatment": "油漆",
+      "specification": "3000 × 800 × 0.6mm",
+      "weight_per_unit": 68.31,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e5d"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-11T21:11:41.133929",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V030",
+      "vehicle_type": "卡车",
+      "load_weight": 7.21,
+      "transport_distance": 777,
+      "transport_speed": 7.0,
+      "fuel_consumption": 1.36,
+      "driver_id": "D017",
+      "route_code": "R09"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e5e"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-12T05:11:41.133929",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG08",
+      "packaging_machine": "M007",
+      "packaging_type": "防潮包装",
+      "packaging_material": "塑料膜",
+      "line_speed": 19.8,
+      "packaging_tension": 12.2,
+      "bundling_method": "塑料带捆扎",
+      "label_type": "RFID标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e5f"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-12T06:11:41.133929",
+    "operation_type": "入库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 58.42,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK36490",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_461.pdf",
+        "url": "https://storage.example.com/inbound/7163.pdf"
+      },
+      {
+        "doc_id": "RK36494",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_566.pdf",
+        "url": "https://storage.example.com/inbound/3647.pdf"
+      },
+      {
+        "doc_id": "RK77015",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_416.pdf",
+        "url": "https://storage.example.com/inbound/3368.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A8-20",
+      "equipment_id": "EQ064",
+      "equipment_type": "龙门吊",
+      "load_capacity": 26,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "干燥",
+      "area_utilization": 89.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "9SiCr",
+      "hardness": 62.6,
+      "wear_resistance": "良好",
+      "application": "量具",
+      "steel_type": "工具钢",
+      "material_code": "M6865",
+      "production_process": "锻造",
+      "surface_treatment": "油漆",
+      "specification": "3000 × 800 × 0.6mm",
+      "weight_per_unit": 68.31,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e60"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-12T14:11:41.133929",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 97.74,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A3-19",
+      "equipment_id": "EQ080",
+      "equipment_type": "行车",
+      "load_capacity": 11,
+      "operation_mode": "人工操作",
+      "stacking_height": 1,
+      "storage_condition": "防锈",
+      "area_utilization": 82.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e61"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-12T16:11:41.133929",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC31229",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_849.pdf",
+        "url": "https://storage.example.com/docs/9957.pdf"
+      },
+      {
+        "doc_id": "DOC90721",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_687.pdf",
+        "url": "https://storage.example.com/docs/7575.pdf"
+      },
+      {
+        "doc_id": "DOC30195",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_729.pdf",
+        "url": "https://storage.example.com/docs/4389.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V027",
+      "vehicle_type": "行车",
+      "load_weight": 18.3,
+      "transport_distance": 536,
+      "transport_speed": 14.0,
+      "fuel_consumption": 0.88,
+      "driver_id": "D030",
+      "route_code": "R13"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e62"
+  },
+  {
+    "batch_id": "P20250414007",
+    "timestamp": "2025-04-12T18:11:41.133929",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 62.61,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ011",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:04:41",
+      "loading_method": "侧面装载",
+      "vehicle_type": "火车车厢"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e63"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-23T18:11:41.180548",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 98.72,
+    "unit": "吨",
+    "notes": "或者我的不断只是.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A8-14",
+      "equipment_id": "EQ098",
+      "equipment_type": "龙门吊",
+      "load_capacity": 29,
+      "operation_mode": "自动",
+      "stacking_height": 2,
+      "storage_condition": "干燥",
+      "area_utilization": 70.2
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D457",
+      "key_property": "韧性好",
+      "application": "一般工程",
+      "steel_type": "耐候钢",
+      "material_code": "M6274",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "1500 × 800 × 3.0mm",
+      "weight_per_unit": 36.04,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e64"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-23T19:11:41.180548",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 98.82,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "CK62000",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_725.pdf",
+        "url": "https://storage.example.com/outbound/5576.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A10-12",
+      "equipment_id": "EQ063",
+      "equipment_type": "行车",
+      "load_capacity": 19,
+      "operation_mode": "半自动",
+      "stacking_height": 3,
+      "storage_condition": "干燥",
+      "area_utilization": 88.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e65"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-23T23:11:41.180548",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC14216",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_476.pdf",
+        "url": "https://storage.example.com/docs/3332.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V027",
+      "vehicle_type": "轨道车",
+      "load_weight": 22.38,
+      "transport_distance": 577,
+      "transport_speed": 11.2,
+      "fuel_consumption": 3.56,
+      "driver_id": "D013",
+      "route_code": "R09"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e66"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-24T05:11:41.180548",
+    "operation_type": "生产",
+    "location_name": "生产线-2号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 44.68,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "SC32725",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_338.xlsx",
+        "url": "https://storage.example.com/production/9932.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ001",
+      "equipment_name": "精整线",
+      "temperature": 1097.79,
+      "pressure": 136.24,
+      "rolling_speed": 22.48,
+      "power_consumption": 4490.32,
+      "duration": 98,
+      "operator_mode": "手动",
+      "maintenance_status": "正常",
+      "production_line": "C线",
+      "batch_temperature_uniformity": 94.1
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D457",
+      "key_property": "韧性好",
+      "application": "一般工程",
+      "steel_type": "耐候钢",
+      "material_code": "M6274",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "1500 × 800 × 3.0mm",
+      "weight_per_unit": 36.04,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e67"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-24T08:11:41.180548",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V019",
+      "vehicle_type": "平板车",
+      "load_weight": 22.71,
+      "transport_distance": 89,
+      "transport_speed": 12.7,
+      "fuel_consumption": 0.87,
+      "driver_id": "D029",
+      "route_code": "R11"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e68"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-24T14:11:41.180548",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "新闻点击专业只要状态次数.",
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST04",
+      "instrument_id": "INST007",
+      "instrument_type": "X射线检测设备",
+      "calibration_date": "2025-03-26",
+      "accuracy": 98.69,
+      "ambient_temperature": 21.2,
+      "ambient_humidity": 52.2,
+      "operator_certification": "中级",
+      "sampling_method": "全检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414199",
+      "inspector_id": "QC005",
+      "inspector_name": "杜红",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "全面检测",
+      "sampling_rate": "10%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 475.19,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 319.03,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 19.65,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 189.97,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 31.19,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "无",
+        "rust": "轻微",
+        "deformation": "轻微",
+        "surface_finish": "良"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5987.8,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1484.6,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 9.97,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1807,
+        "Si": 0.166,
+        "Mn": 1.561,
+        "P": 0.0303,
+        "S": 0.0109
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 700-2006",
+      "remarks": null
+    },
+    "defect_info": {
+      "defect_id": "DF20250414474",
+      "defect_count": 2,
+      "detection_time": "2025-04-14 18:11:41",
+      "defect_details": [
+        {
+          "defect_type": "冲击韧性不足",
+          "defect_code": "DF059",
+          "severity": "中度",
+          "location": "边部",
+          "estimated_area": "50%",
+          "detection_method": "机械性能测试",
+          "possible_cause": "热处理不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "延伸率不足",
+          "defect_code": "DF068",
+          "severity": "轻微",
+          "location": "边部",
+          "estimated_area": "47%",
+          "detection_method": "目视检查",
+          "possible_cause": "操作不当",
+          "defect_images": [
+            "img_3712.jpg"
+          ]
+        }
+      ],
+      "defect_recorder": "杜红",
+      "recording_time": "2025-04-14 18:11:41",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D457",
+      "key_property": "韧性好",
+      "application": "一般工程",
+      "steel_type": "耐候钢",
+      "material_code": "M6274",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "1500 × 800 × 3.0mm",
+      "weight_per_unit": 36.04,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e69"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-24T18:11:41.180548",
+    "operation_type": "转运",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP006",
+    "operator_name": "郭丹",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V005",
+      "vehicle_type": "叉车",
+      "load_weight": 18.48,
+      "transport_distance": 970,
+      "transport_speed": 14.5,
+      "fuel_consumption": null,
+      "driver_id": "D016",
+      "route_code": "R15"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e6a"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-24T23:11:41.180548",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG09",
+      "packaging_machine": "M010",
+      "packaging_type": "防锈包装",
+      "packaging_material": "木材",
+      "line_speed": 15.3,
+      "packaging_tension": 23.3,
+      "bundling_method": "组合捆扎",
+      "label_type": "条码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e6b"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-25T05:11:41.180548",
+    "operation_type": "入库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 12.26,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK45861",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_033.pdf",
+        "url": "https://storage.example.com/inbound/7588.pdf"
+      },
+      {
+        "doc_id": "RK71079",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_051.pdf",
+        "url": "https://storage.example.com/inbound/4983.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A7-02",
+      "equipment_id": "EQ071",
+      "equipment_type": "龙门吊",
+      "load_capacity": 9,
+      "operation_mode": "半自动",
+      "stacking_height": 2,
+      "storage_condition": "干燥",
+      "area_utilization": 75.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "D457",
+      "key_property": "韧性好",
+      "application": "一般工程",
+      "steel_type": "耐候钢",
+      "material_code": "M6274",
+      "production_process": "热轧",
+      "surface_treatment": "未处理",
+      "specification": "1500 × 800 × 3.0mm",
+      "weight_per_unit": 36.04,
+      "weight_unit": "kg/m²",
+      "standard": "GB/T 700"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e6c"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-25T08:11:41.180548",
+    "operation_type": "出库",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 80.81,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A5-08",
+      "equipment_id": "EQ087",
+      "equipment_type": "叉车",
+      "load_capacity": 17,
+      "operation_mode": "人工操作",
+      "stacking_height": 1,
+      "storage_condition": "干燥",
+      "area_utilization": 86.3
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e6d"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-25T13:11:41.180548",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V011",
+      "vehicle_type": "行车",
+      "load_weight": 9.53,
+      "transport_distance": 368,
+      "transport_speed": 14.7,
+      "fuel_consumption": 3.53,
+      "driver_id": "D023",
+      "route_code": "R14"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e6e"
+  },
+  {
+    "batch_id": "P20250414008",
+    "timestamp": "2025-03-25T15:11:41.180548",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 14.19,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC85736",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_218.pdf",
+        "url": "https://storage.example.com/docs/2569.pdf"
+      },
+      {
+        "doc_id": "DOC88738",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_131.pdf",
+        "url": "https://storage.example.com/docs/4703.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ080",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:35:41",
+      "loading_method": "吊装",
+      "vehicle_type": "集装箱卡车"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e6f"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-10T18:11:41.232993",
+    "operation_type": "入库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 39.64,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A5-06",
+      "equipment_id": "EQ083",
+      "equipment_type": "叉车",
+      "load_capacity": 13,
+      "operation_mode": "人工操作",
+      "stacking_height": 1,
+      "storage_condition": "防潮",
+      "area_utilization": 72.2
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B543",
+      "key_property": "韧性好",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M2802",
+      "production_process": "铸造",
+      "surface_treatment": "镀锌",
+      "specification": "3000 × 1200 × 1.8mm",
+      "weight_per_unit": 6.81,
+      "weight_unit": "kg/m",
+      "standard": "EN 10025"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e70"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-10T22:11:41.232993",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 43.53,
+    "unit": "吨",
+    "notes": "开发由于我的大家所有非常.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A7-20",
+      "equipment_id": "EQ098",
+      "equipment_type": "输送机",
+      "load_capacity": 17,
+      "operation_mode": "自动",
+      "stacking_height": 2,
+      "storage_condition": "防潮",
+      "area_utilization": 70.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e71"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-11T04:11:41.232993",
+    "operation_type": "转运",
+    "location_name": "生产线-2号",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V019",
+      "vehicle_type": "轨道车",
+      "load_weight": 5.28,
+      "transport_distance": 463,
+      "transport_speed": 5.7,
+      "fuel_consumption": 1.3,
+      "driver_id": "D002",
+      "route_code": "R10"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e72"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-11T07:11:41.232993",
+    "operation_type": "生产",
+    "location_name": "生产线-1号",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 21.86,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "SC80579",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_851.xlsx",
+        "url": "https://storage.example.com/production/9208.xlsx"
+      },
+      {
+        "doc_id": "SC28621",
+        "doc_type": "生产记录",
+        "file_name": "生产记录_20250414_832.xlsx",
+        "url": "https://storage.example.com/production/7326.xlsx"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ001",
+      "equipment_name": "剪切机",
+      "temperature": 992.33,
+      "pressure": 144.02,
+      "rolling_speed": 28.83,
+      "power_consumption": 4747.33,
+      "duration": 86,
+      "operator_mode": "手动",
+      "maintenance_status": "正常",
+      "production_line": "A线",
+      "batch_temperature_uniformity": 93.3
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B543",
+      "key_property": "韧性好",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M2802",
+      "production_process": "铸造",
+      "surface_treatment": "镀锌",
+      "specification": "3000 × 1200 × 1.8mm",
+      "weight_per_unit": 6.81,
+      "weight_unit": "kg/m",
+      "standard": "EN 10025"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e73"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-11T15:11:41.232993",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": null,
+    "unit": null,
+    "notes": "最大经济出来觉得数据历史如果.",
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V013",
+      "vehicle_type": "行车",
+      "load_weight": 10.36,
+      "transport_distance": 599,
+      "transport_speed": 16.7,
+      "fuel_consumption": 1.62,
+      "driver_id": "D001",
+      "route_code": "R13"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e74"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-11T16:11:41.232993",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST06",
+      "instrument_id": "INST015",
+      "instrument_type": "X射线检测设备",
+      "calibration_date": "2025-02-23",
+      "accuracy": 96.18,
+      "ambient_temperature": 23.0,
+      "ambient_humidity": 43.8,
+      "operator_certification": "专家",
+      "sampling_method": "首尾件抽检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414864",
+      "inspector_id": "QC004",
+      "inspector_name": "张晨",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "全面检测",
+      "sampling_rate": "50%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 429.17,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 303.12,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 27.95,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 235.08,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 46.14,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "无",
+        "rust": "轻微",
+        "deformation": "明显",
+        "surface_finish": "优"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 6010.2,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1490.7,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 10.04,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1844,
+        "Si": 0.1952,
+        "Mn": 1.5552,
+        "P": 0.0323,
+        "S": 0.032
+      },
+      "overall_result": "合格",
+      "inspection_standard": "GB/T 1591-2018",
+      "remarks": "发生生活目前软件结果或者."
+    },
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B543",
+      "key_property": "韧性好",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M2802",
+      "production_process": "铸造",
+      "surface_treatment": "镀锌",
+      "specification": "3000 × 1200 × 1.8mm",
+      "weight_per_unit": 6.81,
+      "weight_unit": "kg/m",
+      "standard": "EN 10025"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e75"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-11T17:11:41.232993",
+    "operation_type": "转运",
+    "location_name": "成品仓库-B区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": "简介因为一些资源有限软件.",
+    "related_docs": [
+      {
+        "doc_id": "DOC21745",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_543.pdf",
+        "url": "https://storage.example.com/docs/4615.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V044",
+      "vehicle_type": "行车",
+      "load_weight": 9.56,
+      "transport_distance": 147,
+      "transport_speed": 19.5,
+      "fuel_consumption": 2.17,
+      "driver_id": "D004",
+      "route_code": "R09"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e76"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-12T01:11:41.232993",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG02",
+      "packaging_machine": "M010",
+      "packaging_type": "简易包装",
+      "packaging_material": "木材",
+      "line_speed": 10.3,
+      "packaging_tension": 30.9,
+      "bundling_method": "塑料带捆扎",
+      "label_type": "条码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e77"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-12T08:11:41.232993",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 84.44,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A2-07",
+      "equipment_id": "EQ064",
+      "equipment_type": "输送机",
+      "load_capacity": 27,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "常温",
+      "area_utilization": 87.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "B543",
+      "key_property": "韧性好",
+      "application": "特种应用",
+      "steel_type": "轴承钢",
+      "material_code": "M2802",
+      "production_process": "铸造",
+      "surface_treatment": "镀锌",
+      "specification": "3000 × 1200 × 1.8mm",
+      "weight_per_unit": 6.81,
+      "weight_unit": "kg/m",
+      "standard": "EN 10025"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e78"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-12T10:11:41.232993",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": 28.19,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A4-19",
+      "equipment_id": "EQ058",
+      "equipment_type": "龙门吊",
+      "load_capacity": 22,
+      "operation_mode": "自动",
+      "stacking_height": 2,
+      "storage_condition": "干燥",
+      "area_utilization": 88.6
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e79"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-12T13:11:41.232993",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC37816",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_528.pdf",
+        "url": "https://storage.example.com/docs/5867.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V020",
+      "vehicle_type": "叉车",
+      "load_weight": 22.18,
+      "transport_distance": 550,
+      "transport_speed": 15.1,
+      "fuel_consumption": 2.6,
+      "driver_id": "D011",
+      "route_code": "R08"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e7a"
+  },
+  {
+    "batch_id": "P20250414009",
+    "timestamp": "2025-04-12T15:11:41.232993",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP003",
+    "operator_name": "孙志强",
+    "quantity": 72.86,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC75195",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_916.pdf",
+        "url": "https://storage.example.com/docs/2311.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ013",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:24:41",
+      "loading_method": "吊装",
+      "vehicle_type": "平板卡车"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e7b"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-03T18:11:41.293157",
+    "operation_type": "入库",
+    "location_name": "原料仓库-B区",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 95.65,
+    "unit": "吨",
+    "notes": "来源以下日本很多.",
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A1-04",
+      "equipment_id": "EQ068",
+      "equipment_type": "行车",
+      "load_capacity": 20,
+      "operation_mode": "半自动",
+      "stacking_height": 5,
+      "storage_condition": "干燥",
+      "area_utilization": 85.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "304",
+      "key_elements": "Cr, Ni, Mo",
+      "corrosion_resistance": "良好",
+      "tensile_strength": 609.5,
+      "application": "医疗器械",
+      "steel_type": "不锈钢",
+      "material_code": "M4495",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "7000 × 1200 × 1.1mm",
+      "weight_per_unit": 83.3,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 4171"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e7c"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-03T22:11:41.293157",
+    "operation_type": "出库",
+    "location_name": "原料仓库-A区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 18.58,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "CK54245",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_663.pdf",
+        "url": "https://storage.example.com/outbound/2817.pdf"
+      },
+      {
+        "doc_id": "CK87970",
+        "doc_type": "出库单",
+        "file_name": "出库单_20250414_752.pdf",
+        "url": "https://storage.example.com/outbound/1130.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A7-09",
+      "equipment_id": "EQ062",
+      "equipment_type": "龙门吊",
+      "load_capacity": 15,
+      "operation_mode": "半自动",
+      "stacking_height": 4,
+      "storage_condition": "常温",
+      "area_utilization": 84.7
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e7d"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T01:11:41.293157",
+    "operation_type": "转运",
+    "location_name": "生产线-1号",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V010",
+      "vehicle_type": "叉车",
+      "load_weight": 11.61,
+      "transport_distance": 553,
+      "transport_speed": 18.5,
+      "fuel_consumption": null,
+      "driver_id": "D015",
+      "route_code": "R15"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e7e"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T06:11:41.293157",
+    "operation_type": "生产",
+    "location_name": "生产线-2号",
+    "operator_id": "OP004",
+    "operator_name": "王建国",
+    "quantity": 40.43,
+    "unit": "吨",
+    "notes": "历史教育深圳广告科技.",
+    "related_docs": [],
+    "equipment_params": {
+      "equipment_id": "EQ009",
+      "equipment_name": "剪切机",
+      "temperature": 978.0,
+      "pressure": 94.79,
+      "rolling_speed": 22.22,
+      "power_consumption": 2767.76,
+      "duration": 121,
+      "operator_mode": "半自动",
+      "maintenance_status": "需要维护",
+      "production_line": "A线",
+      "batch_temperature_uniformity": 97.4
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "304",
+      "key_elements": "Cr, Ni, Mo",
+      "corrosion_resistance": "良好",
+      "tensile_strength": 609.5,
+      "application": "医疗器械",
+      "steel_type": "不锈钢",
+      "material_code": "M4495",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "7000 × 1200 × 1.1mm",
+      "weight_per_unit": 83.3,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 4171"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e7f"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T12:11:41.293157",
+    "operation_type": "转运",
+    "location_name": "质检中心",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC57330",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_051.pdf",
+        "url": "https://storage.example.com/docs/2033.pdf"
+      },
+      {
+        "doc_id": "DOC72092",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_643.pdf",
+        "url": "https://storage.example.com/docs/2126.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V018",
+      "vehicle_type": "叉车",
+      "load_weight": 18.86,
+      "transport_distance": 857,
+      "transport_speed": 14.4,
+      "fuel_consumption": null,
+      "driver_id": "D018",
+      "route_code": "R11"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e80"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T16:11:41.293157",
+    "operation_type": "质检",
+    "location_name": "质检中心",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": "自己一下过程.",
+    "related_docs": [],
+    "equipment_params": {
+      "inspection_station": "ST03",
+      "instrument_id": "INST017",
+      "instrument_type": "磁粉探伤仪",
+      "calibration_date": "2025-02-23",
+      "accuracy": 97.29,
+      "ambient_temperature": 21.7,
+      "ambient_humidity": 51.0,
+      "operator_certification": "中级",
+      "sampling_method": "首尾件抽检"
+    },
+    "quality_inspection": {
+      "inspection_id": "QC20250414131",
+      "inspector_id": "QC006",
+      "inspector_name": "柳秀英",
+      "inspection_time": "2025-04-14 18:11:41",
+      "inspection_type": "全面检测",
+      "sampling_rate": "50%",
+      "mechanical_properties": {
+        "tensile_strength": {
+          "value": 456.17,
+          "unit": "MPa",
+          "standard": "≥450 MPa"
+        },
+        "yield_strength": {
+          "value": 321.74,
+          "unit": "MPa",
+          "standard": "≥275 MPa"
+        },
+        "elongation": {
+          "value": 22.01,
+          "unit": "%",
+          "standard": "≥21%"
+        },
+        "hardness": {
+          "value": 242.69,
+          "unit": "HB",
+          "standard": "170-230 HB"
+        },
+        "impact_energy": {
+          "value": 30.62,
+          "unit": "J",
+          "standard": "≥35 J"
+        }
+      },
+      "surface_quality": {
+        "scratch": "无",
+        "rust": "严重",
+        "deformation": "无",
+        "surface_finish": "差"
+      },
+      "dimension_check": {
+        "length": {
+          "value": 5993.4,
+          "unit": "mm",
+          "standard": "6000±20 mm"
+        },
+        "width": {
+          "value": 1487.6,
+          "unit": "mm",
+          "standard": "1500±20 mm"
+        },
+        "thickness": {
+          "value": 9.98,
+          "unit": "mm",
+          "standard": "10.0±0.2 mm"
+        }
+      },
+      "chemical_composition": {
+        "C": 0.1535,
+        "Si": 0.1751,
+        "Mn": 1.3634,
+        "P": 0.0335,
+        "S": 0.0234
+      },
+      "overall_result": "不合格",
+      "inspection_standard": "GB/T 4171-2008",
+      "remarks": null
+    },
+    "defect_info": {
+      "defect_id": "DF20250414712",
+      "defect_count": 4,
+      "detection_time": "2025-04-14 18:11:41",
+      "defect_details": [
+        {
+          "defect_type": "表面不平整",
+          "defect_code": "DF219",
+          "severity": "轻微",
+          "location": "边部",
+          "estimated_area": "43%",
+          "detection_method": "目视检查",
+          "possible_cause": "操作不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "冲击韧性不足",
+          "defect_code": "DF653",
+          "severity": "轻微",
+          "location": "全部",
+          "estimated_area": "49%",
+          "detection_method": "磁粉探伤",
+          "possible_cause": "操作不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "硬度过高",
+          "defect_code": "DF887",
+          "severity": "严重",
+          "location": "局部",
+          "estimated_area": "10%",
+          "detection_method": "超声波检测",
+          "possible_cause": "操作不当",
+          "defect_images": []
+        },
+        {
+          "defect_type": "锈蚀",
+          "defect_code": "DF880",
+          "severity": "轻微",
+          "location": "端部",
+          "estimated_area": "3%",
+          "detection_method": "目视检查",
+          "possible_cause": "设备故障",
+          "defect_images": []
+        }
+      ],
+      "defect_recorder": "柳秀英",
+      "recording_time": "2025-04-14 18:11:41",
+      "defect_record_status": "已记录"
+    },
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "304",
+      "key_elements": "Cr, Ni, Mo",
+      "corrosion_resistance": "良好",
+      "tensile_strength": 609.5,
+      "application": "医疗器械",
+      "steel_type": "不锈钢",
+      "material_code": "M4495",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "7000 × 1200 × 1.1mm",
+      "weight_per_unit": 83.3,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 4171"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e81"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T20:11:41.293157",
+    "operation_type": "转运",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP001",
+    "operator_name": "陈霞",
+    "quantity": null,
+    "unit": null,
+    "notes": "电话联系那个说明位置当然最大制作.",
+    "related_docs": [
+      {
+        "doc_id": "DOC67568",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_034.pdf",
+        "url": "https://storage.example.com/docs/4593.pdf"
+      },
+      {
+        "doc_id": "DOC88304",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_442.pdf",
+        "url": "https://storage.example.com/docs/2160.pdf"
+      },
+      {
+        "doc_id": "DOC58782",
+        "doc_type": "转运记录",
+        "file_name": "转运记录_287.pdf",
+        "url": "https://storage.example.com/docs/7507.pdf"
+      }
+    ],
+    "equipment_params": {
+      "vehicle_id": "V021",
+      "vehicle_type": "卡车",
+      "load_weight": 24.71,
+      "transport_distance": 597,
+      "transport_speed": 6.9,
+      "fuel_consumption": null,
+      "driver_id": "D030",
+      "route_code": "R13"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e82"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-04T23:11:41.293157",
+    "operation_type": "包装",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP007",
+    "operator_name": "甘刚",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "packaging_station": "PKG02",
+      "packaging_machine": "M008",
+      "packaging_type": "标准包装",
+      "packaging_material": "木材",
+      "line_speed": 12.0,
+      "packaging_tension": 47.9,
+      "bundling_method": "组合捆扎",
+      "label_type": "QR码标签"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e83"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-05T03:11:41.293157",
+    "operation_type": "入库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP002",
+    "operator_name": "孙艳",
+    "quantity": 59.41,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "RK59501",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_513.pdf",
+        "url": "https://storage.example.com/inbound/9297.pdf"
+      },
+      {
+        "doc_id": "RK76202",
+        "doc_type": "入库单",
+        "file_name": "入库单_20250414_052.pdf",
+        "url": "https://storage.example.com/inbound/3399.pdf"
+      }
+    ],
+    "equipment_params": {
+      "storage_location": "A10-16",
+      "equipment_id": "EQ088",
+      "equipment_type": "龙门吊",
+      "load_capacity": 6,
+      "operation_mode": "自动",
+      "stacking_height": 2,
+      "storage_condition": "防潮",
+      "area_utilization": 86.2
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": {
+      "grade": "304",
+      "key_elements": "Cr, Ni, Mo",
+      "corrosion_resistance": "良好",
+      "tensile_strength": 609.5,
+      "application": "医疗器械",
+      "steel_type": "不锈钢",
+      "material_code": "M4495",
+      "production_process": "锻造",
+      "surface_treatment": "抛光",
+      "specification": "7000 × 1200 × 1.1mm",
+      "weight_per_unit": 83.3,
+      "weight_unit": "kg/m",
+      "standard": "GB/T 4171"
+    },
+    "_id": "67fcdf5d6c5702f2aec76e84"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-05T05:11:41.293157",
+    "operation_type": "出库",
+    "location_name": "成品仓库-A区",
+    "operator_id": "OP008",
+    "operator_name": "萧凤兰",
+    "quantity": 40.54,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "storage_location": "A8-16",
+      "equipment_id": "EQ094",
+      "equipment_type": "龙门吊",
+      "load_capacity": 27,
+      "operation_mode": "人工操作",
+      "stacking_height": 2,
+      "storage_condition": "防锈",
+      "area_utilization": 72.0
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e85"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-05T06:11:41.293157",
+    "operation_type": "转运",
+    "location_name": "发货区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": null,
+    "unit": null,
+    "notes": null,
+    "related_docs": [],
+    "equipment_params": {
+      "vehicle_id": "V022",
+      "vehicle_type": "叉车",
+      "load_weight": 15.47,
+      "transport_distance": 254,
+      "transport_speed": 8.4,
+      "fuel_consumption": 2.37,
+      "driver_id": "D030",
+      "route_code": "R07"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e86"
+  },
+  {
+    "batch_id": "P20250414010",
+    "timestamp": "2025-04-05T08:11:41.293157",
+    "operation_type": "发货",
+    "location_name": "发货区",
+    "operator_id": "OP005",
+    "operator_name": "慕云",
+    "quantity": 19.17,
+    "unit": "吨",
+    "notes": null,
+    "related_docs": [
+      {
+        "doc_id": "DOC56935",
+        "doc_type": "发货记录",
+        "file_name": "发货记录_285.pdf",
+        "url": "https://storage.example.com/docs/6564.pdf"
+      }
+    ],
+    "equipment_params": {
+      "equipment_id": "EQ025",
+      "equipment_type": "叉车",
+      "operation_start": "18:11:41",
+      "operation_end": "19:38:41",
+      "loading_method": "顶部装载",
+      "vehicle_type": "平板卡车"
+    },
+    "quality_inspection": null,
+    "defect_info": null,
+    "risk_assessment": null,
+    "material_properties": null,
+    "_id": "67fcdf5d6c5702f2aec76e87"
+  }
+]
